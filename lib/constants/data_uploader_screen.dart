@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:login01/controllers/data_uploader.dart';
+
+class DataUploaderCcreen extends StatelessWidget {
+   DataUploaderCcreen({Key? key}) : super(key: key);
+  DataUploader controller = Get.put(DataUploader());
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Text('Uploading'),
+      ),
+    );
+  }
+}
