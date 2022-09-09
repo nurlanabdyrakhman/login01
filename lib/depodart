@@ -1,0 +1,11 @@
+// #firebase-tools indirilmesi
+// npm install -g firebase-tools
+
+// #firebase modülüne giriş
+// firebase login
+
+// #firebase tabanlı proje oluşturulması
+// firebase init
+
+// #firebasede projenin canlıya atılması
+// npm run build && firebase deploy
